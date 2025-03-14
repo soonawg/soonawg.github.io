@@ -1,7 +1,7 @@
 ---
 title: "Shoud we study to improve problem-solving skills?"
 layout: post
-date: 2025-03-10 20:00:00 +0900
+date: 2025-03-14 11:30:00 +0900
 categories: [PS, Study, Algorithm, LeetCode]
 tags: [PS]
 ---
