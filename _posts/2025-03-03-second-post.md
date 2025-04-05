@@ -2,7 +2,7 @@
 title: "RL Study (2)"
 layout: post
 date: 2025-03-03 20:00:00 +0900
-categories: [Reinforcement Learning, Study]
+categories: [Nothing]
 tags: [David Silver]
 ---
 
