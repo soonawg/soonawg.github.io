@@ -114,7 +114,11 @@ analytics:
 # Site Author
 author:
   name             : "Sang-woo Han"
+<<<<<<< HEAD
   avatar           : "/assets/images/bio-photo.jpg"
+=======
+  avatar           : "assets/images/bio-photo.jpg"
+>>>>>>> fe0773027f9e11f2897f80c2c3c33f1fd66a987a
   bio              : "I am currently studying CS in Korea (CJU Student). I am interested in Reinforcement Learning."
   location         : "South Korea"
   email            :
