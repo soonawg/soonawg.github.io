@@ -114,7 +114,7 @@ analytics:
 # Site Author
 author:
   name             : "Sang-woo Han"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "assets/images/bio-photo.jpg"
   bio              : "I am currently studying CS in Korea (CJU Student). I am interested in Reinforcement Learning."
   location         : "South Korea"
   email            :
