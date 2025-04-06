@@ -326,7 +326,7 @@ defaults:
       type: posts
     values:
       layout: single
-      classes: "wide"
+      classes: "constrained" # wide에서 constrained로 변경
       sidebar:
         nav: "main"
       author_profile: true
