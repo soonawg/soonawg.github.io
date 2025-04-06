@@ -26,17 +26,17 @@ search: false
   color: #aaa;
 }
 
-// // 추가할 부분
-// .page {
-//     width: 80%;
-//     margin: 0 auto;
-//     @media (min-width: 80em) {
-//       width: 65%;
-//     }
-//   }
+// 추가할 부분
+.page {
+    width: 80%;
+    margin: 0 auto;
+    @media (min-width: 80em) {
+      width: 65%;
+    }
+  }
   
-//   .page__content {
-//     p, li, dl {
-//       font-size: 0.9em;
-//     }
-//   }
+  .page__content {
+    p, li, dl {
+      font-size: 0.9em;
+    }
+  }
