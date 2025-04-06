@@ -2,8 +2,6 @@
 title: "포트폴리오를 만들자"
 layout: post
 date: 2025-03-30 22:00:00 +0900
-categories: [Portfolio, Study]
-tags: [Study, Portfolio]
 ---
 
 # 포트폴리오를 만들자
