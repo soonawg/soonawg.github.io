@@ -7,6 +7,11 @@ search: false
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&display=swap');
+
+body {
+  font-family: 'Noto Sans KR', sans-serif;
+}
 
 /* 포스트 목록 스타일 */
 .archive__item {
@@ -15,12 +20,37 @@ search: false
     border-bottom: 1px solid #444;
   }
   
-  .archive__item-title {
-    font-size: 1.2rem;
-    margin-bottom: 0.5rem;
-  }
+.archive__item-title {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
   
-  .archive__item-excerpt {
-    font-size: 0.9rem;
-    color: #aaa;
-  }
+.archive__item-excerpt {
+  font-size: 0.9rem;
+  color: #aaa;
+}
+
+/* 콘텐츠 너비 제한 */
+.wrapper {
+  max-width: 800px !important; /* 원하는 너비로 조정 (800px 추천) */
+  margin: 0 auto;
+  padding: 0 20px; /* 좌우 여백 추가 */
+}
+  
+/* 포스트 본문 스타일 */
+.post-content {
+  font-size: 1rem; /* 폰트 크기 */
+  line-height: 1.6; /* 줄 간격 */
+}
+  
+/* 제목과 본문 간격 조정 */
+.post-content h1,
+.post-content h2,
+.post-content h3 {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+  
+.post-content p {
+  margin-bottom: 1.5rem;
+}
