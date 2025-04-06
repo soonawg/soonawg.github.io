@@ -6,7 +6,7 @@
 
 @media (max-width: 800px) {
     .page__content {
-        max-width: 100%;
-        padding: 0 10px;
+        max-width: 100%; /* 작은 화면에서는 너비를 100%로 */
+        padding: 0 10px; /* 패딩을 줄여서 가독성 유지 */
     }
 }
