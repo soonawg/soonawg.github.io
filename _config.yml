@@ -326,7 +326,7 @@ defaults:
       type: posts
     values:
       layout: single
-      classes: wide
+      classes: constrained
       sidebar:
         nav: "main"
       author_profile: true
