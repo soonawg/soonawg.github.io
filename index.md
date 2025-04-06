@@ -9,3 +9,4 @@ I'm currently studying **Reinforcement Learning** and **Mujoco**.
 My interestes are now:
 - Robots
 - Reinforcement Learning
+- Mujoco
