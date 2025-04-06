@@ -2,8 +2,6 @@
 title: "What is Vibe Coding"
 layout: post
 date: 2025-03-24 22:15:00 +0900
-categories: [Coding, Study, AI]
-tags: [Study, Coding]
 ---
 
 # 바이브 코딩에 대하여
