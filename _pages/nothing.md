@@ -1,7 +1,7 @@
 ---
 title: "Nothing"
+layout: category
 permalink: /nothing/
-layout: categories
-category: nothing
-paginate: true
+taxonomy: nothing
+entries_layout: list
 ---
