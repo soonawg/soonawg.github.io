@@ -2,8 +2,6 @@
 title: "Hugging Face Deep RL Course (1)"
 layout: post
 date: 2025-03-15 22:10:00 +0900
-categories: [RL, Study, Deep RL]
-tags: [Study, RL]
 ---
 
 # 허깅페이스 Deep RL Course 공부에 대하여
