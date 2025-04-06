@@ -1,0 +1,12 @@
+.page__content {
+    max-width: 800px; /* 원하는 너비로 조정 */
+    margin: 0 auto; /* 가운데 정렬 */
+    padding: 0 20px; /* 양옆 패딩 추가 */
+}
+
+@media (max-width: 800px) {
+    .page__content {
+        max-width: 100%;
+        padding: 0 10px;
+    }
+}
