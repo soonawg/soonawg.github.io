@@ -140,7 +140,7 @@ author:
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
     - Label: "LinkedIn"
-      icon: "fa-brands fa-linkedin"
+      icon: "fab fa-linkedin"
       url: "https://www.linkedin.com/in/%EC%83%81%EC%9A%B0-%ED%95%9C-96b2732a0/"
     - Label: "Hugging Face"
       icon: "fa-solid fa-face-smiling-hands"
@@ -326,7 +326,7 @@ defaults:
       type: posts
     values:
       layout: single
-      classes: "constrained" # wide에서 constrained로 변경
+      # classes: "constrained" # wide에서 constrained로 변경
       sidebar:
         nav: "main"
       author_profile: true
