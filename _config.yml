@@ -315,8 +315,6 @@ compress_html:
   ignore:
     envs: development
 
-head_scripts:
-  - /assets/css/main.css
 
 # Defaults
 defaults:
@@ -326,9 +324,9 @@ defaults:
       type: posts
     values:
       layout: single
-      classes: "constrained"
-      sidebar:
-        nav: "main"
+      classes: "wide"
+      #sidebar:
+      #  nav: "main"
       author_profile: true
       show_date: true
       read_time: true
