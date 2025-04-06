@@ -315,6 +315,8 @@ compress_html:
   ignore:
     envs: development
 
+head_scripts:
+  - /assets/css/main.css
 
 # Defaults
 defaults:
@@ -325,8 +327,8 @@ defaults:
     values:
       layout: single
       classes: "constrained"
-      # sidebar:
-      #   nav: "main"
+      sidebar:
+        nav: "main"
       author_profile: true
       show_date: true
       read_time: true
@@ -334,3 +336,6 @@ defaults:
       comments: # true
       share: true
       related: true
+      toc: true
+      toc_label: "목차"
+      toc_icon: "list-ul"
