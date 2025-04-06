@@ -7,3 +7,20 @@ search: false
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
+
+/* 포스트 목록 스타일 */
+.archive__item {
+    margin-bottom: 2rem;
+    padding: 1rem;
+    border-bottom: 1px solid #444;
+  }
+  
+  .archive__item-title {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .archive__item-excerpt {
+    font-size: 0.9rem;
+    color: #aaa;
+  }
