@@ -2,8 +2,6 @@
 title: "Shoud we study to improve problem-solving skills?"
 layout: post
 date: 2025-03-14 11:30:00 +0900
-categories: [PS, Study, Algorithm, LeetCode]
-tags: [PS]
 ---
 
 # 우리는 이제 더 이상 코딩 실력을 향상 시켜야할까?
