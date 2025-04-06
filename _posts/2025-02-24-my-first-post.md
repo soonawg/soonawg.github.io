@@ -2,6 +2,7 @@
 title: "RL Study (1)"
 layout: post
 date: 2025-02-24 10:00:00 +0900
+categories: study
 ---
 
 # 강화학습 스터디
