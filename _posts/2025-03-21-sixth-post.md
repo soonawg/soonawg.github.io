@@ -2,6 +2,7 @@
 title: "Hugging Face Deep RL Course (2)"
 layout: post
 date: 2025-03-21 23:40:00 +0900
+categories: study
 ---
 
 # 허깅페이스 Deep RL Course를 진행하며
