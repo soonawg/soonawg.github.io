@@ -23,13 +23,13 @@ GAE를 요약하자면, 편향-분산 트레이드오프를 조정하여 advanta
 ## 첫번째 버전의 코드
 [First_PPO](https://github.com/soonawg/ppo_hopper_v5/blob/562e237cec4ffa0eaa961390bf14a44cde5be4b2/first_version_ppo.py)   
 위 링크를 통해 확인 가능하다.
-[Result_image_first](C:\Users\User\Desktop\Gitpages\soonawg.github.io\assets\images\2025-04-14\ppo_hopper.png)
+![Result_image_first](/assets/images/2025-04-14/ppo_hopper.png)
 결과 사진을 보면 Reward가 거의 0에 수렴한다.
 
 ## 두번째 버전의 코드
 [Second PPO](https://github.com/soonawg/ppo_hopper_v5/blob/562e237cec4ffa0eaa961390bf14a44cde5be4b2/second_version_ppo.py)
 위 링크를 통해 확인 가능하다.
-[Result_image_second](C:\Users\User\Desktop\Gitpages\soonawg.github.io\assets\images\2025-04-14\ppo_hopper1.png)
+![Result_image_second](/assets/images/2025-04-14/ppo_hopper1.png)
 결과 사진을 보면 Reward가 평균이 약 60정도로 많이 개선된 것을 볼 수 있다.
 
 ## 무엇을 바꿔서 이렇게 개선됬을까?
