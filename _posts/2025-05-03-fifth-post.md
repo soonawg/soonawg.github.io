@@ -14,7 +14,7 @@ categories: study
 
 ## 다음과 같은 공부를 진척하였다.
 * 기초 강화학습 알고리즘을 익혔다.
-* 간단한 Continous 환경에서 강화학습 알고리즘을 구현할 수 있다.
+* 간단한 Continous 환경에서 강화학습 알고리즘을 구현할 수 있다. (EX : Hopper, Reacher)
 
 ## 앞으로의 목표
 * 심화 강화학습 알고리즘 (ex: SAC, DDPG 등)을 공부한다.
