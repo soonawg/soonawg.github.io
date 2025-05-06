@@ -13,27 +13,33 @@ HRL은 기존에 공부했던 PPO, SAC 같은 새로운 RL의 알고리즘이라
 HRL은 복잡한 문제를 더 작은 하위 문제로 나누어 해결할 수 있도록 구조화한 접근 방식이다.
 
 ## 왜 HRL이 필요한가?
-1. 스파스 보상 문제
+1. **스파스 보상 문제**
 * 보상이 매우 드물게 주어지는 환경에서는 일반 RL이 탐색하기 어려움
 - 예를 들어서 로봇이 방청소를 완료해야 보상을 준다해보자. 그러면 학습 초반에는 에이전트는 보상을 거의 못받아서 학습이 불가하다.
-2. 장기 목표
+2. **장기 목표**
 - 아까와 같이 방청소를 예를 들어서, `문 열기 -> 방 이동 -> 청소 -> 종료` 라는 일련의 시퀀스를 가진다고 해보자.
 - 이런 경우 수백 개의 스텝을 지나야 보상이 오므로, 지금의 행동이 어떤 영향을 줬는지 학습하기 어렵다.
 
 ## HRL의 해결책
 HRL의 해결책은 두 가지 수준의 정책으로 나눈다.
-1. High-level Policy
+1. **High-level Policy**
 - "청소 시작", "방 건너편으로 가라" 같은 목표를 지시
 - 행동은 하지 않고, sub-goal만 제시한다.
-2. Low-level Policy
+2. **Low-level Policy**
 - 그 목표를 달성하기 위한 세부 행동을 수행
 - 실제로 움직이고, 보상도 받음
 - 예를 들어, `"앞으로 두 걸음 가기"`, `"팔을 뻗어 쓰레기를 줍기"`
 
 ## 대표적인 HRL 알고리즘들
-| 알고리즘 | 핵심 아이디어 | 특징 |
-| --- | --- | --- |
-| **Options Framework** | sub-policy를 "option"으로 추상화 | 정책 + 종료조건 |
-| **FeUdal Networks (FuN)** | high-level이 목표 벡터 생성 | goal space 학습 |
-| **HIRO (Hierarchical Reinforcement Learning with Off-policy Correction)** | 고정된 목표 공간 + 보정된 오프폴리시 학습 | off-policy 샘플 효율 |
-| **HAC (Hierarchical Actor-Critic)** | 다중 레벨 계층 | 각 레벨마다 TD 학습 |
+1. **Options Framework**
+- 핵심 아이디어 : sub-policy를 "option"으로 추상화
+- 특징 : 정책 + 종료조건
+2. **FeUdal Networks (FuN)**
+- 핵심 아이디어 : high-level이 목표 벡터 생성
+- 특징 : goal space 학습
+3. **HIRO (Hierarchical Reinforcement Learning with Off-policy Correction)**
+- 핵심 아이디어 : 고정된 목표 공간 + 보정된 오프폴리시 학습
+- 특징 : off-policy 샘플 효율
+4. **HAC (Hierarchical Actor-Critic)**
+- 핵심 아이디어 : 다중 레벨 계층
+- 특징 : 각 레벨마다 TD 학습
