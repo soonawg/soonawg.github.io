@@ -20,7 +20,8 @@ Model-Free RL은 환경과 직접 상호작용을 하며 policy/value만 학습�
 
 ## 주요 MBRL 알고리즘
 1. PlaNet
-2. Dreamer
+2. Dreamer   
+
 Dreamer가 PlaNet보다 발전된 알고리즘.
 
 ## Dreamer의 간단 학습 흐름 개요
