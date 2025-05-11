@@ -1,7 +1,7 @@
 ---
 title: "심화 Exploration 기법에 대해 알아보자"
 layout: post
-date: 2025-05-06 22:30:00 +0900
+date: 2025-05-07 22:30:00 +0900
 categories: study
 ---
 
