@@ -36,4 +36,4 @@ Behavior Cloning은 **전문가의 데이터 분포에만 의존해서 학습**�
 4. 앞으로 공부할 DAgger
 
 # 실습
-[Code](https://github.com/soonawg/bc_cartpole/blob/main/bc_cartpole.py)
+## [Code](https://github.com/soonawg/bc_cartpole/blob/main/bc_cartpole.py)
