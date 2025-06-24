@@ -6,7 +6,7 @@ categories: study
 ---
 
 # 지난 시간에 한것
-지난 시간에는 CartPole 환경에서 모방학습(Behavior Cloning, BC)를 실습해보아싿.
+지난 시간에는 CartPole 환경에서 모방학습(Behavior Cloning, BC)를 실습해보았다.
 처음엔 전문가 궤적만으로 학습했지만, 성능이 불안정했고 평균 보상이 50~150 사이로 크게 흔들렸다.
 이유는 바로 distribution shift 때문이었고, 이를 해결하기 위해 DAgger를 공부해보았고, 적용해보았다.
 
