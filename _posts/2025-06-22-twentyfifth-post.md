@@ -1,5 +1,5 @@
 ---
-title: "Behavior Cloning 공부 - 모방학습"
+title: "Behavior Cloning 공부 - 모방학습: 여름방학 공부기"
 layout: post
 date: 2025-06-22 21:55:00 +0900
 categories: study
