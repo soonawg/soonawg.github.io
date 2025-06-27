@@ -27,18 +27,6 @@ categories: study
     - Q를 최대화하려고 노력하면서
     - MMD 거리가 너무 커지면 패널티를 부여해서 dataset 행동 분포 근처로 유지하도록 만든다.
 
-# MMD
-- BEAR의 핵심 툴
-- 샘플 집합 $X$와 $Y$가 있을 때,
-
-![image.png](attachment:5e2e2234-b7f9-48f5-87f5-3f97749655bd:image.png)
-
-로 정의됨
-
-- 여기서 $k$는 RBF 커널 같은 kernel function
-- 직관적으로는: **두 분포 간의 “평균 차이”를 커널 공간에서 재는 거리**라고 이해하면 됨
-- BEAR는 이 MMD가 일정 threshold를 넘으면 policy 업데이트를 억제하도록 설계
-
 # BEAR의 학습 과정
 1. **Q-function** 업데이트:
     - 표준 Bellman backup으로 업데이트 (TD3와 유사)
@@ -47,7 +35,7 @@ categories: study
     - Q값이 높으면서
     - MMD 거리가 작도록 최적화
 3. **Behavior policy estimation**:
-    - 데이터셋의 행동 분포 $\mu(a|s)$를 추정하기 위해
+    - 데이터셋의 행동 분포 mu(a|s)를 추정하기 위해
     - 일반적으로 **VAE**를 사용해 행동 모델을 학습
     - 이 VAE 샘플을 기준으로 MMD를 계산
 4. **Policy constraint**:
