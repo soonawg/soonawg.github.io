@@ -37,3 +37,7 @@ categories: study
 
 - advantage 추정이 잘못되면 잘못된 행동에 weight를 실어줄 수 있음
 - lambda 하이퍼파라미터 튜닝 필요
+
+
+# 샘플 코드
+## [Code](https://github.com/soonawg/offline_rl_sample/blob/main/awac_sample.py)
