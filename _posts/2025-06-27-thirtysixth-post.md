@@ -1,7 +1,7 @@
 ---
 title: "D4RL 공부 - Offline RL: 여름방학 공부기"
 layout: post
-date: 2025-06-27 13:22:00 +0900
+date: 2025-06-27 13:25:00 +0900
 categories: study
 ---
 
