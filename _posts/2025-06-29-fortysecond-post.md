@@ -33,23 +33,13 @@ categories: study
 실행 흐름은 다음과 같다.
 전문가 데이터 수집 -> BC 초기 학습 -> DAgger 반복 -> 성능 평가
 
-## 코드 전체 구조
-전체 구조:
-├── 1. 라이브러리 임포트 및 설정
-├── 2. 정책 네트워크 클래스들
-│   ├── PolicyNetwork (학습 대상) : 학습할 신경망 정책
-│   └── ExpertPolicy (전문가 정책) : 규칙 기반 전문가 정책
-├── 3. 데이터 관리 클래스
-│   ├── DataCollector (데이터 수집) : 데이터 수집 관리
-│   └── Dataset (데이터 저장/로드)
-├── 4. 학습 알고리즘 클래스들
-│   ├── BC (Behavioral Cloning) : Behavior Cloning 학습
-│   └── DAgger (Dataset Aggregation) : DAgger 반복
-├── 5. 평가 및 유틸리티 클래스
-│   ├── Evaluator (성능 평가)
-│   └── Logger (로그 기록)
-└── 6. 메인 실행 함수
-    └── main() (전체 파이프라인)
+## 클래스 구조
+* PolicyNetwork: 학습할 신경망 정책
+* ExpertPolicy: 규칙 기반 전문가 정책
+* DataCollector: 데이터 수집 관리
+* BC: Behavioral Cloning 학습
+* DAgger: Dataset Aggregation 반복
+* Evaluator: 성능 평가 및 비교
 
 ## 코드 성능
 Final performance는 216.20 평균적인 성능이 나왔다.
