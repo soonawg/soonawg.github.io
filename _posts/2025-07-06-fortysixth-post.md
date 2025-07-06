@@ -6,7 +6,7 @@ categories: study
 ---
 
 # 실습을 해보자
-ViT, CLIP, BLIP, Flamingo 이론을 공부하고 간단히 실습을 진행해야지 좀 더 이해가 쉬울거같아 실습을 진행하고자 한다.
+ViT, CLIP, BLIP, Flamingo 이론을 공부하고 간단히 실습을 진행해야지 이해를 좀 더 할 수 있을 것 같아 실습을 진행하고자 한다.
 
 # ViT 실습
 ViT 실습 코드는 다음 링크를 통해 확인
