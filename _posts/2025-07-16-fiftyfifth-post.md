@@ -25,20 +25,22 @@ Depth는 카메라로부터 어떤 물체까지의 거리를 말한다.
 일반적인 RGB 이미지에는 포함되진 않지만, Depth 카메라나 스테레오 방식 등을 쓰면 얻을 수 있다
 
 ## 핀홀 카메라 모델
-$
-\begin{bmatrix}
-u \\
-v \\
-1
-\end{bmatrix}
-=
-\frac{1}{Z}
-\cdot
-\mathbf{K}
-\cdot
-\begin{bmatrix}
-X \\
-Y \\
-Z
-\end{bmatrix}
-$
+실세계의 3D 좌표가 2D 이미지 평면에 투영되는 원리를 설명하는 수학적 모델이다.
+### 투영 관계:
+![projection_pinhall](/assets/images/2025-07-16/pinhall_camera.png)
+- (X, Y, Z): 3D 월드 좌표
+- (u, v): 2D 이미지 픽셀 좌표
+- K: 카메라 내부 행렬 (intrinsic matrix)
+
+### K (camera intrinsic matrix)
+![projection_pinhall_K](/assets/images/2025-07-16/pinhall_camera_1.png)
+- f_x, f_y: 초점 거리 (픽셀 단위)
+- c_x, c_y: 중심점
+
+
+## 픽셀 -> 3D 좌표 변환 공식
+Depth와 Intrinsic 파라미터만 있으면 다음 공식으로 3D 좌표를 추정할 수 있음:
+![pixel_to_3D](/assets/images/2025-07-16/pixel_to_3D.png)
+- (u, v): 이미지 픽셀 좌표
+- Z: 해당 픽셀의 depth 값
+- (X, Y, Z): 카메라 기준 3D 좌표
