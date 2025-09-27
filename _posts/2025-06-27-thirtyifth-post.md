@@ -1,5 +1,5 @@
 ---
-title: "TD3+BC 공부 - Offline RL: 여름방학 공부기"
+title: "TD3+BC 공부 - Offline RL"
 layout: post
 date: 2025-06-27 12:50:00 +0900
 categories: study

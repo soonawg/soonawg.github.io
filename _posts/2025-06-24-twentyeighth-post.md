@@ -1,5 +1,5 @@
 ---
-title: "GAIL 공부 - 모방학습: 여름방학 공부기"
+title: "GAIL 공부 - 모방학습"
 layout: post
 date: 2025-06-24 22:00:00 +0900
 categories: study

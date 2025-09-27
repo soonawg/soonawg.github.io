@@ -1,5 +1,5 @@
 ---
-title: "실습 - BC & DAgger: 여름방학 공부기"
+title: "실습 - BC & DAgger"
 layout: post
 date: 2025-06-29 21:35:00 +0900
 categories: study

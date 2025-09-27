@@ -1,5 +1,5 @@
 ---
-title: "Dataset Quality & Selection in Offline RL: 여름방학 공부기"
+title: "Dataset Quality & Selection in Offline RL"
 layout: post
 date: 2025-06-27 18:11:00 +0900
 categories: study

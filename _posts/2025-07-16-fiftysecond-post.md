@@ -1,5 +1,5 @@
 ---
-title: "YOLO: vision - 여름방학 공부기"
+title: "YOLO: vision"
 layout: post
 date: 2025-07-16 12:42:00 +0900
 categories: study

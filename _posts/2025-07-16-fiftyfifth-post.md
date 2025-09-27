@@ -1,5 +1,5 @@
 ---
-title: "거리 및 자세 인식 심화: vision - 여름방학 공부기"
+title: "거리 및 자세 인식 심화: vision"
 layout: post
 date: 2025-07-16 15:33:00 +0900
 categories: study

@@ -1,5 +1,5 @@
 ---
-title: "CLIP, BLIP, Flamingo - 멀티모달: 여름방학 공부기"
+title: "CLIP, BLIP, Flamingo - 멀티모달"
 layout: post
 date: 2025-07-04 14:13:00 +0900
 categories: study

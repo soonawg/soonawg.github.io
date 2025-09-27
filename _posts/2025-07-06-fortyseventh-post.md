@@ -1,5 +1,5 @@
 ---
-title: "RT-2: 여름방학 공부기"
+title: "RT-2"
 layout: post
 date: 2025-07-06 23:58:00 +0900
 categories: study

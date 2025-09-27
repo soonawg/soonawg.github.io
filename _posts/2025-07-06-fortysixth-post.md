@@ -1,5 +1,5 @@
 ---
-title: "ViT, CLIP, BLIP, Flamingo 실습 - 멀티모달: 여름방학 공부기"
+title: "ViT, CLIP, BLIP, Flamingo 실습 - 멀티모달"
 layout: post
 date: 2025-07-06 14:44:00 +0900
 categories: study

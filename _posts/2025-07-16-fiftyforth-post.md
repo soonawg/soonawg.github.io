@@ -1,5 +1,5 @@
 ---
-title: "객체 탐지 성능 향상: vision - 여름방학 공부기"
+title: "객체 탐지 성능 향상: vision"
 layout: post
 date: 2025-07-16 15:16:00 +0900
 categories: study

@@ -1,5 +1,5 @@
 ---
-title: "ViT: 여름방학 공부기"
+title: "ViT"
 layout: post
 date: 2025-07-02 15:24:00 +0900
 categories: study

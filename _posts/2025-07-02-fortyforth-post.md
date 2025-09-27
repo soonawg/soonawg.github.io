@@ -1,5 +1,5 @@
 ---
-title: "DeiT, Swin - ViT: 여름방학 공부기"
+title: "DeiT, Swin - ViT"
 layout: post
 date: 2025-07-02 15:25:00 +0900
 categories: study

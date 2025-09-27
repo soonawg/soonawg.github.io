@@ -1,5 +1,5 @@
 ---
-title: "IQ-Learn 공부 - 모방학습: 여름방학 공부기"
+title: "IQ-Learn 공부 - 모방학습"
 layout: post
 date: 2025-06-26 14:55:00 +0900
 categories: study
