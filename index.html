@@ -307,26 +307,6 @@
           <!-- Footer Section -->
           <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
             <tr>
-              <td style="padding:16px 0px;width:100%;text-align:center;">
-                <blockquote id="kanye-quote" style="font-style: italic; color: #555; margin: 10px 0; font-size: 0.95em;">
-                  "Loading Kanye quote..."
-                </blockquote>
-                <p style="font-size:0.8em; color:#888; margin-top: 4px;">
-                  Powered by <a href="https://github.com/ajzbc/kanye.rest" target="_blank">kanye.rest</a>
-                </p>
-                <script>
-                  fetch('https://api.kanye.rest')
-                    .then(function(response) { return response.json(); })
-                    .then(function(data) {
-                      document.getElementById('kanye-quote').innerText = '"' + data.quote + '" — Kanye West';
-                    })
-                    .catch(function(err) {
-                      document.getElementById('kanye-quote').style.display = 'none';
-                    });
-                </script>
-              </td>
-            </tr>
-            <tr>
               <td style="padding:0px">
                 <p style="text-align:right;font-size:small;">
                   Design template based on <a href="https://github.com/jonbarron/jonbarron_website">Jon Barron's website</a>.
