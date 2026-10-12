@@ -8,6 +8,7 @@
     <meta name="author" content="Sangwoo Han">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="stylesheet.css">
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
   </head>
 
   <body>
@@ -28,7 +29,7 @@
                   <a href="mailto:soonawg@gmail.com">Email</a> &nbsp;/&nbsp;
                   <a href="https://github.com/soonawg" target="_blank">Github</a> &nbsp;/&nbsp;
                   <a href="https://orcid.org/0009-0006-5942-2752" target="_blank">ORCID</a> &nbsp;/&nbsp;
-                  <a href="cv_sangwoohan.pdf" id="cv-link" onclick="openCvModal(event)">CV</a> &nbsp;/&nbsp;
+                  <a href="https://drive.google.com/file/d/1mgnYP-CHVBcpYCgYfNrdK3QJqymmgAE8/view?usp=sharing" target="_blank" rel="noopener noreferrer">CV</a> &nbsp;/&nbsp;
                   <a href="https://scholar.google.com/citations?user=WLGp23AAAAAJ&amp;hl=ko&amp;authuser=3" target="_blank" rel="noopener noreferrer">Google Scholar</a>
                 </p>
               </td>
@@ -38,33 +39,85 @@
             </tr>
           </tbody></table>
 
-          <!-- 1. Research Interests Section -->
+          <!-- News Section -->
+          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+            <tr>
+              <td style="padding:16px;width:100%;vertical-align:middle">
+                <h2>News</h2>
+              </td>
+            </tr>
+          </tbody></table>
+
+          <table style="width:100%;border:0px;border-spacing:0px 10px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+            <tr>
+              <td style="padding:8px 16px;width:18%;vertical-align:top"><strong>2026.10</strong></td>
+              <td style="padding:8px;width:82%;vertical-align:top">Submitted a paper to a workshop at the Conference on Robot Learning (CoRL) 2026.</td>
+            </tr>
+            <tr>
+              <td style="padding:8px 16px;width:18%;vertical-align:top"><strong>2026.09</strong></td>
+              <td style="padding:8px;width:82%;vertical-align:top">Submitted a paper to the IEEE International Conference on Robotics and Automation (ICRA) 2027.</td>
+            </tr>
+            <tr>
+              <td style="padding:8px 16px;width:18%;vertical-align:top"><strong>2026.09</strong></td>
+              <td style="padding:8px;width:82%;vertical-align:top">Started a Chungbuk RISE Center project with <a href="http://kaps.co.kr/" target="_blank" rel="noopener noreferrer">KAPS</a> on AI vision-based automatic pattern and defect detection and analysis for wafer master substrates.</td>
+            </tr>
+            <tr>
+              <td style="padding:8px 16px;width:18%;vertical-align:top"><strong>2026.07</strong></td>
+              <td style="padding:8px;width:82%;vertical-align:top">Joined <a href="https://robinlab-dgist.github.io/">ROBIN Lab at DGIST</a> as a research intern.</td>
+            </tr>
+            <tr>
+              <td style="padding:8px 16px;width:18%;vertical-align:top"><strong>2026.07</strong></td>
+              <td style="padding:8px;width:82%;vertical-align:top">Our paper, <a href="https://doi.org/10.3390/s26154757">“ROEP: A Robotics-Oriented Evaluation Protocol for Deployment-Facing Vision-Language-Action Manipulation Policies”</a>, was accepted for publication in <em>Sensors</em>.</td>
+            </tr>
+            <tr>
+              <td style="padding:8px 16px;width:18%;vertical-align:top"><strong>2026.02</strong></td>
+              <td style="padding:8px;width:82%;vertical-align:top">Co-invented a Korean patent application, “Method for Analyzing Process History Data” (No. 10-2026-0034909).</td>
+            </tr>
+            <tr>
+              <td style="padding:8px 16px;width:18%;vertical-align:top"><strong>2026.02</strong></td>
+              <td style="padding:8px;width:82%;vertical-align:top">Transferred technology and know-how for manufacturing process efficiency to <a href="https://www.ieckr.com/" target="_blank" rel="noopener noreferrer">International Electric Co., Ltd.</a></td>
+            </tr>
+            <tr>
+              <td style="padding:8px 16px;width:18%;vertical-align:top"><strong>2025.11</strong></td>
+              <td style="padding:8px;width:82%;vertical-align:top">Started the Chungbuk RISE Center project “Information Extraction and Analysis for Manufacturing Process Efficiency” with <a href="https://www.ieckr.com/" target="_blank" rel="noopener noreferrer">International Electric Co., Ltd.</a></td>
+            </tr>
+            <tr>
+              <td style="padding:8px 16px;width:18%;vertical-align:top"><strong>2025.10</strong></td>
+              <td style="padding:8px;width:82%;vertical-align:top">Started the SW-Centered University Program project “AI for Hard-Copy Digitization in Intelligent Video Conferencing” with <a href="https://main.gooroomee.com/" target="_blank" rel="noopener noreferrer">Gooroomee Inc.</a></td>
+            </tr>
+            <tr>
+              <td style="padding:8px 16px;width:18%;vertical-align:top"><strong>2025.09</strong></td>
+              <td style="padding:8px;width:82%;vertical-align:top">Joined VICA Lab at Cheongju University as an undergraduate researcher.</td>
+            </tr>
+          </tbody></table>
+
+          <!-- 2. Research Interests Section -->
           <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
             <tr>
               <td style="padding:16px;width:100%;vertical-align:middle">
                 <h2>Research Interests</h2>
                 <p>
-                  My ultimate research goal is to build intelligent robotic agents that can operate robustly, adaptively, and autonomously in complex, real-world environments.
+                  My research goal is to advance Physical AI by combining real-world robot learning, realistic simulation, and robot foundation models to build agents that can interact robustly and autonomously with the real world.
                 </p>
                 <ul style="line-height: 1.6; padding-left: 20px;">
                   <li>
-                    <strong>RL with Priors:</strong> Reinforcement learning becomes sample-inefficient when the agent's degrees of freedom are high. How can we learn effective priors that reduce exploration space, enabling agents to master complex physical tasks?
+                    <strong>Reinforcement Learning for Dexterous Manipulation:</strong> How can robots learn robust, adaptive skills for complex physical tasks through interaction with the real world and scalable reinforcement learning?
                   </li>
                   <li style="margin-top: 8px;">
-                    <strong>Sim-to-Real Transfer:</strong> Simulations provide scalable and safe environments for policy learning, but the reality gap persists. How can we bridge the sim-to-real gap so that policies trained in simulation seamlessly transfer to physical hardware?
+                    <strong>Real-to-Sim-to-Real Transfer:</strong> How can real-world interaction data help build accurate digital twins, so robot behaviors can be developed and refined in simulation before being transferred reliably to physical systems?
                   </li>
                   <li style="margin-top: 8px;">
-                    <strong>Humanoids & Vision-based Control:</strong> Humanoid morphology combined with egocentric vision provides versatile capabilities. How can we scale vision-guided control policies so humanoids can perceive and act autonomously in unstructured environments?
+                    <strong>Humanoids & Vision-based Control:</strong> How can vision-based policies enable humanoid robots to perceive, manipulate objects, and act reliably in complex environments?
                   </li>
                   <li style="margin-top: 8px;">
-                    <strong>Vision-Language-Action (VLA) Models:</strong> Integrating multimodal foundation models with lower-level robotic control allows agents to understand human intent and visual scenes. How can we leverage VLA models to achieve generalizable spatial reasoning and real-world task execution?
+                    <strong>Robot Foundation Models:</strong> How can robot foundation models leverage diverse interaction data to perform long-horizon tasks and generalize across environments, objects, and real-world situations?
                   </li>
                 </ul>
               </td>
             </tr>
           </tbody></table>
 
-          <!-- 2. Publications Section -->
+          <!-- 3. Publications Section -->
           <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
             <tr>
               <td style="padding:16px;width:100%;vertical-align:middle">
@@ -95,11 +148,11 @@
             </tr>
           </tbody></table>
 
-          <!-- 3. Projects Section -->
+          <!-- 4. Research Projects Section -->
           <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
             <tr>
               <td style="padding:16px;width:100%;vertical-align:middle">
-                <h2>Projects</h2>
+                <h2>Research Projects</h2>
               </td>
             </tr>
           </tbody></table>
@@ -107,12 +160,25 @@
           <table style="width:100%;border:0px;border-spacing:0px 10px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
             <tr>
               <td style="padding:16px;width:25%;vertical-align:top">
+                <strong>Jul 2026 &ndash; Jan 2027</strong>
+              </td>
+              <td style="padding:8px;width:75%;vertical-align:top">
+                <span class="papertitle">Development of AI Vision-Based Automatic Pattern and Defect Detection and Analysis Technology for Wafer Master Substrates</span>
+                <br>
+                Chungbuk RISE Center &middot; KRW 100M &middot; <a href="http://kaps.co.kr/" target="_blank" rel="noopener noreferrer">KAPS</a>
+                <p style="margin-top:4px; font-size:0.9em; color:#555;">
+                  PI: Hyunguk Choi &middot; Team: Junwoo Cho, Yongjun Park, Myeong Shin, Jiwoo Park, Kihoon Kim, <strong>Sangwoo Han</strong>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td style="padding:16px;width:25%;vertical-align:top">
                 <strong>Nov 2025 &ndash; Feb 2026</strong>
               </td>
               <td style="padding:8px;width:75%;vertical-align:top">
                 <span class="papertitle">Information Extraction and Analysis for Manufacturing Process Efficiency</span>
                 <br>
-                Chungbuk RISE Center &middot; KRW 100M &middot; Kukje Electric Co., Ltd.
+                Chungbuk RISE Center &middot; KRW 100M &middot; <a href="https://www.ieckr.com/" target="_blank" rel="noopener noreferrer">International Electric Co., Ltd.</a>
                 <p style="margin-top:4px; font-size:0.9em; color:#555;">
                   PI: Hyunguk Choi &middot; Team: Gihun Kim, Jiwoo Park, <strong>Sangwoo Han</strong>, Jiwoo Hong
                 </p>
@@ -125,7 +191,7 @@
               <td style="padding:8px;width:75%;vertical-align:top">
                 <span class="papertitle">AI for Hard-Copy Digitization in Intelligent Video Conferencing</span>
                 <br>
-                SW-Centered University Program &middot; KRW 6.3M &middot; Gooroomee Inc.
+                SW-Centered University Program &middot; KRW 6.3M &middot; <a href="https://main.gooroomee.com/" target="_blank" rel="noopener noreferrer">Gooroomee Inc.</a>
                 <p style="margin-top:4px; font-size:0.9em; color:#555;">
                   PI: Hyunguk Choi &middot; Team: Gihun Kim, Eunseong Kim, Jiwoo Park, <strong>Sangwoo Han</strong>, Jiwoo Hong
                 </p>
@@ -133,7 +199,7 @@
             </tr>
           </tbody></table>
 
-          <!-- 4. Patent & Technology Transfer Section -->
+          <!-- 6. Patent & Technology Transfer Section -->
           <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
             <tr>
               <td style="padding:16px;width:100%;vertical-align:middle">
@@ -163,7 +229,7 @@
               <td style="padding:8px;width:75%;vertical-align:top">
                 <span class="papertitle">Manufacturing Process Efficiency: Technology and Know-How Transfer</span>
                 <br>
-                Transferred to Kukje Electric Co., Ltd.
+                Transferred to <a href="https://www.ieckr.com/" target="_blank" rel="noopener noreferrer">International Electric Co., Ltd.</a>
                 <p style="margin-top:4px; font-size:0.9em; color:#555;">
                   Hyunguk Choi, Gihun Kim, Jiwoo Park, <strong>Sangwoo Han</strong>, Jiwoo Hong
                 </p>
@@ -184,7 +250,7 @@
             <!-- Item 1: DGIST ROBIN Lab -->
             <tr>
               <td style="padding:16px;width:25%;vertical-align:top">
-                <strong>Present</strong>
+                <strong>2026.07 &ndash; Present</strong>
               </td>
               <td style="padding:8px;width:75%;vertical-align:top">
                 <span class="papertitle">Research Intern</span> &mdash; <a href="https://robinlab-dgist.github.io/" target="_blank">ROBIN Lab</a>, DGIST
@@ -198,7 +264,7 @@
             <!-- Item 2: Cheongju Univ VICA Lab -->
             <tr>
               <td style="padding:16px;width:25%;vertical-align:top">
-                <strong>Present</strong>
+                <strong>2025.09 &ndash; Present</strong>
               </td>
               <td style="padding:8px;width:75%;vertical-align:top">
                 <span class="papertitle">Undergraduate Researcher</span> &mdash; VICA Lab, Cheongju University
@@ -212,26 +278,6 @@
 
           <!-- Footer Section -->
           <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-            <tr>
-              <td style="padding:16px 0px;width:100%;text-align:center;">
-                <blockquote id="kanye-quote" style="font-style: italic; color: #555; margin: 10px 0; font-size: 0.95em;">
-                  "Loading Kanye quote..."
-                </blockquote>
-                <p style="font-size:0.8em; color:#888; margin-top: 4px;">
-                  Powered by <a href="https://github.com/ajzbc/kanye.rest" target="_blank">kanye.rest</a>
-                </p>
-                <script>
-                  fetch('https://api.kanye.rest')
-                    .then(function(response) { return response.json(); })
-                    .then(function(data) {
-                      document.getElementById('kanye-quote').innerText = '"' + data.quote + '" — Kanye West';
-                    })
-                    .catch(function(err) {
-                      document.getElementById('kanye-quote').style.display = 'none';
-                    });
-                </script>
-              </td>
-            </tr>
             <tr>
               <td style="padding:0px">
                 <p style="text-align:right;font-size:small;">
