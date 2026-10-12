@@ -28,7 +28,7 @@
                   <a href="mailto:soonawg@gmail.com">Email</a> &nbsp;/&nbsp;
                   <a href="https://github.com/soonawg" target="_blank">Github</a> &nbsp;/&nbsp;
                   <a href="https://orcid.org/0009-0006-5942-2752" target="_blank">ORCID</a> &nbsp;/&nbsp;
-                  <a href="https://drive.google.com/file/d/1mgnYP-CHVBcpYCgYfNrdK3QJqymmgAE8/view?usp=sharing" target="_blank" rel="noopener noreferrer">CV</a> &nbsp;/&nbsp;
+                  <a href="cv_sangwoohan.pdf" id="cv-link" onclick="openCvModal(event)">CV</a> &nbsp;/&nbsp;
                   <a href="https://scholar.google.com/citations?user=WLGp23AAAAAJ&amp;hl=ko&amp;authuser=3" target="_blank" rel="noopener noreferrer">Google Scholar</a>
                 </p>
               </td>
@@ -243,5 +243,78 @@
         </td>
       </tr>
     </table>
+    <!-- CV Modal Viewer -->
+    <div id="cv-modal" class="modal-overlay" onclick="handleCvBackdropClick(event)">
+      <div class="modal-content" role="dialog" aria-modal="true" aria-labelledby="cv-modal-title">
+        <div class="modal-header">
+          <h3 id="cv-modal-title" class="modal-title">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+              <polyline points="14 2 14 8 20 8"></polyline>
+              <line x1="16" y1="13" x2="8" y2="13"></line>
+              <line x1="16" y1="17" x2="8" y2="17"></line>
+              <polyline points="10 9 9 9 8 9"></polyline>
+            </svg>
+            Sangwoo Han &mdash; Curriculum Vitae
+          </h3>
+          <div class="modal-actions">
+            <a href="cv_sangwoohan.pdf" target="_blank" rel="noopener noreferrer" class="modal-btn" title="Open in new tab">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                <polyline points="15 3 21 3 21 9"></polyline>
+                <line x1="10" y1="14" x2="21" y2="3"></line>
+              </svg>
+              <span>New Tab</span>
+            </a>
+            <a href="cv_sangwoohan.pdf" download="cv_sangwoohan.pdf" class="modal-btn" title="Download CV">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                <polyline points="7 10 12 15 17 10"></polyline>
+                <line x1="12" y1="15" x2="12" y2="3"></line>
+              </svg>
+              <span>Download</span>
+            </a>
+            <button type="button" class="modal-close-btn" onclick="closeCvModal()" aria-label="Close CV Modal">&times;</button>
+          </div>
+        </div>
+        <div class="modal-body">
+          <iframe id="cv-iframe" src="" title="Sangwoo Han - Curriculum Vitae"></iframe>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      function openCvModal(e) {
+        if (e) e.preventDefault();
+        var modal = document.getElementById('cv-modal');
+        var iframe = document.getElementById('cv-iframe');
+        if (!iframe.getAttribute('src')) {
+          iframe.src = 'cv_sangwoohan.pdf';
+        }
+        modal.classList.add('active');
+        document.body.style.overflow = 'hidden';
+      }
+
+      function closeCvModal() {
+        var modal = document.getElementById('cv-modal');
+        modal.classList.remove('active');
+        document.body.style.overflow = '';
+      }
+
+      function handleCvBackdropClick(e) {
+        if (e.target.id === 'cv-modal') {
+          closeCvModal();
+        }
+      }
+
+      document.addEventListener('keydown', function(e) {
+        if (e.key === 'Escape' || e.key === 'Esc') {
+          var modal = document.getElementById('cv-modal');
+          if (modal && modal.classList.contains('active')) {
+            closeCvModal();
+          }
+        }
+      });
+    </script>
   </body>
 </html>
