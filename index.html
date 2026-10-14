@@ -28,7 +28,6 @@
                 <p style="text-align:center">
                   <a href="mailto:soonawg@gmail.com">Email</a> &nbsp;/&nbsp;
                   <a href="https://github.com/soonawg" target="_blank">Github</a> &nbsp;/&nbsp;
-                  <a href="https://orcid.org/0009-0006-5942-2752" target="_blank">ORCID</a> &nbsp;/&nbsp;
                   <a href="cv_sangwoohan.pdf" id="cv-link" onclick="openCvModal(event)">CV</a> &nbsp;/&nbsp;
                   <a href="https://scholar.google.com/citations?user=WLGp23AAAAAJ&amp;hl=ko&amp;authuser=3" target="_blank" rel="noopener noreferrer">Google Scholar</a>
                 </p>
@@ -65,31 +64,42 @@
               <td style="padding:8px 16px;width:18%;vertical-align:top"><strong>2026.07</strong></td>
               <td style="padding:8px;width:82%;vertical-align:top">Joined <a href="https://robinlab-dgist.github.io/">ROBIN Lab at DGIST</a> as a research intern.</td>
             </tr>
-            <tr>
-              <td style="padding:8px 16px;width:18%;vertical-align:top"><strong>2026.07</strong></td>
-              <td style="padding:8px;width:82%;vertical-align:top">Our paper, <a href="https://doi.org/10.3390/s26154757">“ROEP: A Robotics-Oriented Evaluation Protocol for Deployment-Facing Vision-Language-Action Manipulation Policies”</a>, was accepted for publication in <em>Sensors</em>.</td>
-            </tr>
-            <tr>
-              <td style="padding:8px 16px;width:18%;vertical-align:top"><strong>2026.02</strong></td>
-              <td style="padding:8px;width:82%;vertical-align:top">Co-invented a Korean patent application, “Method for Analyzing Process History Data” (No. 10-2026-0034909).</td>
-            </tr>
-            <tr>
-              <td style="padding:8px 16px;width:18%;vertical-align:top"><strong>2026.02</strong></td>
-              <td style="padding:8px;width:82%;vertical-align:top">Transferred technology and know-how for manufacturing process efficiency to <a href="https://www.ieckr.com/" target="_blank" rel="noopener noreferrer">International Electric Co., Ltd.</a></td>
-            </tr>
-            <tr>
-              <td style="padding:8px 16px;width:18%;vertical-align:top"><strong>2025.11</strong></td>
-              <td style="padding:8px;width:82%;vertical-align:top">Started the Chungbuk RISE Center project “Information Extraction and Analysis for Manufacturing Process Efficiency” with <a href="https://www.ieckr.com/" target="_blank" rel="noopener noreferrer">International Electric Co., Ltd.</a></td>
-            </tr>
-            <tr>
-              <td style="padding:8px 16px;width:18%;vertical-align:top"><strong>2025.10</strong></td>
-              <td style="padding:8px;width:82%;vertical-align:top">Started the SW-Centered University Program project “AI for Hard-Copy Digitization in Intelligent Video Conferencing” with <a href="https://main.gooroomee.com/" target="_blank" rel="noopener noreferrer">Gooroomee Inc.</a></td>
-            </tr>
-            <tr>
-              <td style="padding:8px 16px;width:18%;vertical-align:top"><strong>2025.09</strong></td>
-              <td style="padding:8px;width:82%;vertical-align:top">Joined VICA Lab at Cheongju University as an undergraduate researcher.</td>
-            </tr>
           </tbody></table>
+
+          <div id="older-news" style="display:none;">
+            <table style="width:100%;border:0px;border-spacing:0px 10px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+              <tr>
+                <td style="padding:8px 16px;width:18%;vertical-align:top"><strong>2026.07</strong></td>
+                <td style="padding:8px;width:82%;vertical-align:top">Our paper, <a href="https://doi.org/10.3390/s26154757">“ROEP: A Robotics-Oriented Evaluation Protocol for Deployment-Facing Vision-Language-Action Manipulation Policies”</a>, was accepted for publication in <em>Sensors</em>.</td>
+              </tr>
+              <tr>
+                <td style="padding:8px 16px;width:18%;vertical-align:top"><strong>2026.02</strong></td>
+                <td style="padding:8px;width:82%;vertical-align:top">Co-invented a Korean patent application, “Method for Analyzing Process History Data” (No. 10-2026-0034909).</td>
+              </tr>
+              <tr>
+                <td style="padding:8px 16px;width:18%;vertical-align:top"><strong>2026.02</strong></td>
+                <td style="padding:8px;width:82%;vertical-align:top">Transferred technology and know-how for manufacturing process efficiency to <a href="https://www.ieckr.com/" target="_blank" rel="noopener noreferrer">International Electric Co., Ltd.</a></td>
+              </tr>
+              <tr>
+                <td style="padding:8px 16px;width:18%;vertical-align:top"><strong>2025.11</strong></td>
+                <td style="padding:8px;width:82%;vertical-align:top">Started the Chungbuk RISE Center project “Information Extraction and Analysis for Manufacturing Process Efficiency” with <a href="https://www.ieckr.com/" target="_blank" rel="noopener noreferrer">International Electric Co., Ltd.</a></td>
+              </tr>
+              <tr>
+                <td style="padding:8px 16px;width:18%;vertical-align:top"><strong>2025.10</strong></td>
+                <td style="padding:8px;width:82%;vertical-align:top">Started the SW-Centered University Program project “AI for Hard-Copy Digitization in Intelligent Video Conferencing” with <a href="https://main.gooroomee.com/" target="_blank" rel="noopener noreferrer">Gooroomee Inc.</a></td>
+              </tr>
+              <tr>
+                <td style="padding:8px 16px;width:18%;vertical-align:top"><strong>2025.09</strong></td>
+                <td style="padding:8px;width:82%;vertical-align:top">Joined VICA Lab at Cheongju University as an undergraduate researcher.</td>
+              </tr>
+            </tbody></table>
+          </div>
+
+          <div style="text-align:right; padding: 4px 16px 16px 16px;">
+            <button id="toggle-news-btn" type="button" onclick="toggleNews()" style="background:none; border:none; color:#1772d0; cursor:pointer; font-size:14px; font-weight:500; padding:4px 0; text-decoration:none; font-family:inherit;">
+              Show older news &#9662;
+            </button>
+          </div>
 
           <!-- 2. Research Interests Section -->
           <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
@@ -361,6 +371,18 @@
           }
         }
       });
+
+      function toggleNews() {
+        var olderNews = document.getElementById('older-news');
+        var btn = document.getElementById('toggle-news-btn');
+        if (olderNews.style.display === 'none' || olderNews.style.display === '') {
+          olderNews.style.display = 'block';
+          btn.innerHTML = 'Hide older news &#9652;';
+        } else {
+          olderNews.style.display = 'none';
+          btn.innerHTML = 'Show older news &#9662;';
+        }
+      }
     </script>
   </body>
 </html>
