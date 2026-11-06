@@ -49,7 +49,7 @@
             </tr>
           </tbody></table>
 
-          <table style="width:100%;border:0px;border-spacing:0px 10px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+          <table id="news-table" style="width:100%;border:0px;border-spacing:0px 10px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
             <tr>
               <td style="padding:8px 16px;width:18%;vertical-align:top"><strong>2026.09</strong></td>
               <td style="padding:8px;width:82%;vertical-align:top">Submitted a paper to the IEEE International Conference on Robotics and Automation (ICRA) 2027.</td>
@@ -87,6 +87,11 @@
               <td style="padding:8px;width:82%;vertical-align:top">Joined VICA Lab at Cheongju University as an undergraduate researcher.</td>
             </tr>
           </tbody></table>
+          <div style="text-align:right; padding: 4px 16px 16px 16px;">
+            <button id="toggle-news-btn" type="button" onclick="toggleNews()" style="background:none; border:none; color:#1772d0; cursor:pointer; font-size:14px; font-weight:500; padding:4px 0; text-decoration:none; font-family:inherit; display:none;">
+              Show older news &#9662;
+            </button>
+          </div>
 
           <!-- 2. Research Interests Section -->
           <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
@@ -126,7 +131,7 @@
           <table style="width:100%;border:0px;border-spacing:0px 10px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
             <tr>
               <td style="padding:16px;width:20%;vertical-align:middle">
-                <img src="images/roep.png" width="160" style="border-radius:4px; border: 1px solid #eee;">
+                <img src="images/roepbench_demo.gif" width="160" style="border-radius:4px; border: 1px solid #eee;">
               </td>
               <td style="padding:8px;width:80%;vertical-align:middle">
                 <a href="https://doi.org/10.3390/s26154757" target="_blank">
@@ -345,6 +350,39 @@
                 }
               }
             });
+
+            var newsExpanded = false;
+            var MAX_VISIBLE_NEWS = 4;
+
+            function updateNewsVisibility() {
+              var table = document.getElementById('news-table');
+              if (!table) return;
+              var rows = table.querySelectorAll('tbody tr');
+              var btn = document.getElementById('toggle-news-btn');
+
+              if (rows.length <= MAX_VISIBLE_NEWS) {
+                if (btn) btn.style.display = 'none';
+                rows.forEach(function(row) { row.style.display = ''; });
+                return;
+              }
+
+              if (btn) btn.style.display = 'inline-block';
+
+              for (var i = 0; i < rows.length; i++) {
+                rows[i].style.display = i < MAX_VISIBLE_NEWS || newsExpanded ? '' : 'none';
+              }
+
+              if (btn) {
+                btn.innerHTML = newsExpanded ? 'Hide older news &#9652;' : 'Show older news &#9662;';
+              }
+            }
+
+            function toggleNews() {
+              newsExpanded = !newsExpanded;
+              updateNewsVisibility();
+            }
+
+            document.addEventListener('DOMContentLoaded', updateNewsVisibility);
           </script>
         </td>
       </tr>
